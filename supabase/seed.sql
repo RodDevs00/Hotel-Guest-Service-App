@@ -1,0 +1,20 @@
+-- Optional local seed: create an admin after first Auth user exists.
+-- Prefer creating the first admin from the Supabase dashboard Auth page, then:
+--
+-- insert into public.profiles (id, full_name, role)
+-- values ('YOUR_AUTH_USER_UUID', 'Hotel Admin', 'admin');
+--
+-- update auth.users
+-- set raw_app_meta_data = coalesce(raw_app_meta_data, '{}'::jsonb) || '{"role":"admin"}'::jsonb
+-- where id = 'YOUR_AUTH_USER_UUID';
+--
+-- Demo stay for room 101 with check-in code "demo1234" (run as service role / SQL editor):
+-- select public.admin_create_stay(
+--   (select id from public.rooms where room_number = '101'),
+--   'demo1234'
+-- );
+-- Note: admin_create_stay requires an authenticated admin JWT. For first setup use:
+--
+-- insert into public.stays (room_id, check_in_code_hash, is_active)
+-- select id, crypt('demo1234', gen_salt('bf')), true
+-- from public.rooms where room_number = '101';

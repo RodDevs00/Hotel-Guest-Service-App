@@ -1,0 +1,17 @@
+[project]
+id = "hotel-guest-service-app"
+
+[api]
+enabled = true
+
+[db]
+major_version = 15
+
+[functions.guest-sign-in]
+verify_jwt = false
+
+[functions.admin-create-user]
+verify_jwt = true
+
+[functions.admin-update-user]
+verify_jwt = true

@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={"darkMode":"class","theme":{"extend":{"colors":{"on-secondary-fixed":"#131c2a","surface-white":"#FFFFFF","surface-container-high":"#daeaf7","tertiary":"#854524","on-background":"#0d1d27","on-primary-fixed":"#002020","status-progress":"#2B6CB0","bg-mist":"#F3F6F8","on-tertiary":"#ffffff","on-tertiary-fixed":"#351000","surface-dim":"#cbdce9","on-secondary":"#ffffff","tertiary-container":"#a35d39","status-completed":"#2F855A","on-secondary-container":"#5a6374","on-surface-variant":"#3e4948","surface-bright":"#f5faff","inverse-primary":"#7cd5d3","surface-tint":"#006a69","outline":"#6e7979","error":"#ba1a1a","secondary-fixed-dim":"#bec7db","inverse-on-surface":"#e3f3ff","surface-container-lowest":"#ffffff","secondary":"#565f70","tertiary-fixed":"#ffdbcc","on-primary-fixed-variant":"#00504f","outline-variant":"#bdc9c8","text-muted":"#5B6B76","on-primary":"#ffffff","secondary-fixed":"#dae3f7","primary":"#006161","on-secondary-fixed-variant":"#3e4758","primary-fixed":"#98f2f0","surface-container":"#dff0fd","tertiary-fixed-dim":"#ffb693","surface-container-highest":"#d4e5f2","surface-variant":"#d4e5f2","inverse-surface":"#23323c","background":"#f5faff","on-tertiary-fixed-variant":"#713615","on-error-container":"#93000a","on-error":"#ffffff","primary-fixed-dim":"#7cd5d3","surface-container-low":"#e9f5ff","error-container":"#ffdad6","error-subtle":"#C53030","border-subtle":"#D7E0E6","primary-container":"#0e7c7b","secondary-container":"#d7e0f4","on-primary-container":"#c3fffd","surface":"#f5faff","on-surface":"#0d1d27","on-tertiary-container":"#fff1eb","status-pending":"#E8A838"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"gutter-mobile":"1rem","space-xl":"2rem","space-2xl":"3rem","space-sm":"0.75rem","margin":"2rem","margin-mobile":"1.25rem","space-md":"1rem","gutter":"1.5rem","space-xs":"0.5rem","space-lg":"1.5rem","space-2xs":"0.25rem"},"fontFamily":{"label-md":["Inter"],"label-lg":["Inter"],"headline-lg-mobile":["Plus Jakarta Sans"],"body-sm":["Inter"],"body-md":["Inter"],"headline-sm":["Plus Jakarta Sans"],"display-hero":["Plus Jakarta Sans"],"display-hero-mobile":["Plus Jakarta Sans"],"label-sm":["Inter"],"headline-lg":["Plus Jakarta Sans"],"body-lg":["Inter"],"headline-md":["Plus Jakarta Sans"]},"fontSize":{"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"500"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"500"}],"headline-lg-mobile":["24px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"600"}],"body-sm":["13px",{"lineHeight":"18px","fontWeight":"400"}],"body-md":["14px",{"lineHeight":"20px","fontWeight":"400"}],"headline-sm":["18px",{"lineHeight":"24px","letterSpacing":"-0.005em","fontWeight":"600"}],"display-hero":["40px",{"lineHeight":"48px","letterSpacing":"-0.02em","fontWeight":"700"}],"display-hero-mobile":["30px",{"lineHeight":"38px","letterSpacing":"-0.015em","fontWeight":"700"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.04em","fontWeight":"600"}],"headline-lg":["32px",{"lineHeight":"40px","letterSpacing":"-0.015em","fontWeight":"600"}],"body-lg":["16px",{"lineHeight":"24px","fontWeight":"400"}],"headline-md":["22px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"600"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface"><aside class="fixed left-0 top-0 h-full w-64 bg-surface-white border-r border-border-subtle z-50 flex flex-col justify-between"><div class="flex flex-col"><div class="h-16 px-space-lg flex items-center gap-space-sm border-b border-border-subtle"><img alt="Haven Service geometric teal H combining a keyhole and soft bed-line icon with Haven Service wordmark in deep navy. Clean, flat, calm hospitality aesthetic.. Brand logo. - Primary color: #0e7c7b
+- Font: plusJakartaSans
+- Mode: light
+- Roundness: rounded-md
+" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrB-w8UXsC3go4mbhUQTn82F6pzqSbhaX5f7V9rV5LbBH677ijJxQtFFdOt3krs1U_b5pl4ivvtksgRNflh25W2NmhKE-K0JWVW7v75Nvj2Mg4b-CZPvXPTqGyU_8pK_OtC2L-8q7lC-Pewrku7w4H-Iem4xO0R3DWMqgocViaDVU17wlU5da5asKioiKWWr26kpVmC9gv75dqlk4arM7y2EW7s326qiYlTCHSDASP8"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-on-surface leading-none">Haven Service</span><span class="font-label-sm text-label-sm text-text-muted mt-space-2xs uppercase tracking-wider">Ops Console</span></div></div><div class="px-space-md py-space-lg"><div class="px-space-sm mb-space-xs"><span class="font-label-sm text-label-sm uppercase text-text-muted tracking-wider">Live Operations</span></div><nav class="space-y-space-2xs flex flex-col mb-space-lg" data-active-classes="bg-surface-container-high text-primary font-semibold"><a aria-current="page" class="flex items-center gap-space-sm px-space-sm py-2 rounded-lg transition-colors bg-surface-container-high text-primary font-semibold" data-path="requests-inbox" href="#"><span class="material-symbols-outlined text-[20px]">inbox</span><span>Requests</span><span class="ml-auto bg-primary-container text-on-primary font-label-sm text-label-sm px-2 py-0.5 rounded-full">12</span></a></nav><div class="px-space-sm mb-space-xs"><span class="font-label-sm text-label-sm uppercase text-text-muted tracking-wider">Administration</span></div><nav class="space-y-space-2xs flex flex-col" data-active-classes="bg-surface-container-high text-primary font-semibold"><a class="flex items-center gap-space-sm px-space-sm py-2 rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface transition-colors font-label-lg text-label-lg" data-path="admin-services" href="#"><span class="material-symbols-outlined text-[20px]">room_service</span><span>Services</span></a><a class="flex items-center gap-space-sm px-space-sm py-2 rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface transition-colors font-label-lg text-label-lg" data-path="admin-rooms" href="#"><span class="material-symbols-outlined text-[20px]">meeting_room</span><span>Rooms</span></a><a class="flex items-center gap-space-sm px-space-sm py-2 rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface transition-colors font-label-lg text-label-lg" data-path="admin-stays" href="#"><span class="material-symbols-outlined text-[20px]">luggage</span><span>Stays</span></a><a class="flex items-center gap-space-sm px-space-sm py-2 rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface transition-colors font-label-lg text-label-lg" data-path="admin-staff" href="#"><span class="material-symbols-outlined text-[20px]">badge</span><span>Staff</span></a></nav></div></div><div class="p-space-md border-t border-border-subtle bg-surface-bright"><div class="flex items-center justify-between p-space-xs"><div class="flex items-center gap-space-xs"><span class="w-2 h-2 rounded-full bg-status-completed inline-block animate-pulse"></span><span class="font-label-sm text-label-sm text-text-muted">System Live · US-East</span></div><span class="material-symbols-outlined text-[18px] text-text-muted">wifi_protected_setup</span></div></div></aside><div class="pl-64"><header class="fixed top-0 left-64 right-0 h-16 bg-surface-white border-b border-border-subtle z-40 px-space-xl flex items-center justify-between shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="flex items-center gap-space-md"><img alt="Haven Service geometric teal H combining a keyhole and soft bed-line icon with Haven Service wordmark in deep navy. Clean, flat, calm hospitality aesthetic.. Brand logo. - Primary color: #0e7c7b
+- Font: plusJakartaSans
+- Mode: light
+- Roundness: rounded-md
+" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrB-w8UXsC3go4mbhUQTn82F6pzqSbhaX5f7V9rV5LbBH677ijJxQtFFdOt3krs1U_b5pl4ivvtksgRNflh25W2NmhKE-K0JWVW7v75Nvj2Mg4b-CZPvXPTqGyU_8pK_OtC2L-8q7lC-Pewrku7w4H-Iem4xO0R3DWMqgocViaDVU17wlU5da5asKioiKWWr26kpVmC9gv75dqlk4arM7y2EW7s326qiYlTCHSDASP8"/><div class="h-4 w-px bg-border-subtle"></div><div class="flex items-center gap-space-xs px-2.5 py-1 rounded-full bg-surface-container text-on-surface border border-border-subtle"><span class="w-2 h-2 rounded-full bg-status-completed"></span><span class="font-label-sm text-label-sm font-medium">Morning Shift (07:00 – 15:30)</span></div></div><div class="flex items-center gap-space-lg"><div class="flex items-center gap-space-sm"><div class="text-right"><div class="font-label-lg text-label-lg text-on-surface font-semibold">Elena Ramos</div><div class="font-label-sm text-label-sm text-text-muted">Housekeeping Lead</div></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div><div class="h-4 w-px bg-border-subtle"></div><a class="flex items-center gap-space-2xs text-text-muted hover:text-error-subtle transition-colors font-label-md text-label-md" data-path="staff-signin" href="#"><span class="material-symbols-outlined text-[18px]">logout</span><span>Sign out</span></a></div></header><main class="w-full pt-16 bg-bg-mist min-h-screen"><div class="flex flex-col w-full">
+<div class="px-space-xl py-space-lg flex flex-col gap-space-lg">
+<!-- Header Block -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="flex flex-col gap-space-2xs">
+<div class="flex items-center gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-text-muted">Live Queue Monitoring</span>
+<span class="text-text-muted font-body-sm">/</span>
+<div class="flex items-center gap-1.5 bg-surface-white px-2 py-0.5 rounded-full shadow-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-status-completed animate-ping"></span>
+<span class="font-label-sm text-label-sm text-on-surface">Live updates active</span>
+</div>
+</div>
+<div class="flex items-baseline gap-space-sm mt-1">
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Requests Inbox</h1>
+<span class="bg-primary-container text-on-primary font-label-md text-label-md px-2.5 py-1 rounded-full shadow-sm">12 Active Requests</span>
+</div>
+</div>
+<!-- Quick Metrics Strip -->
+<div class="flex items-center gap-space-xs bg-surface-white p-1.5 rounded-xl shadow-sm">
+<div class="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-surface-container-low">
+<span class="w-2 h-2 rounded-full bg-status-pending"></span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-text-muted uppercase">Pending Triage</span>
+<span class="font-headline-sm text-headline-sm text-on-surface leading-tight">4</span>
+</div>
+</div>
+<div class="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-surface-container-low">
+<span class="w-2 h-2 rounded-full bg-status-progress"></span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-text-muted uppercase">In Progress</span>
+<span class="font-headline-sm text-headline-sm text-on-surface leading-tight">5</span>
+</div>
+</div>
+<div class="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-surface-container-low">
+<span class="material-symbols-outlined text-primary text-[18px]">timer</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-text-muted uppercase">Avg Response</span>
+<span class="font-headline-sm text-headline-sm text-on-surface leading-tight">8.4m</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Filter Control Bar -->
+<div class="bg-surface-white p-space-md rounded-xl shadow-sm flex flex-col xl:flex-row items-stretch xl:items-center justify-between gap-space-md">
+<!-- Status Tabs -->
+<div class="flex items-center gap-1 bg-bg-mist p-1 rounded-lg overflow-x-auto">
+<button class="flex items-center gap-2 px-3 py-1.5 rounded-md bg-surface-white text-on-surface font-label-md text-label-md shadow-sm transition-all">
+<span>All Requests</span>
+<span class="bg-surface-container text-on-surface font-label-sm text-label-sm px-1.5 py-0.2 rounded-full">12</span>
+</button>
+<button class="flex items-center gap-2 px-3 py-1.5 rounded-md hover:bg-surface-white/60 text-text-muted hover:text-on-surface font-label-md text-label-md transition-all">
+<span class="w-2 h-2 rounded-full bg-status-pending"></span>
+<span>Pending</span>
+<span class="bg-surface-container-low text-text-muted font-label-sm text-label-sm px-1.5 py-0.2 rounded-full">4</span>
+</button>
+<button class="flex items-center gap-2 px-3 py-1.5 rounded-md hover:bg-surface-white/60 text-text-muted hover:text-on-surface font-label-md text-label-md transition-all">
+<span class="w-2 h-2 rounded-full bg-status-progress"></span>
+<span>In Progress</span>
+<span class="bg-surface-container-low text-text-muted font-label-sm text-label-sm px-1.5 py-0.2 rounded-full">5</span>
+</button>
+<button class="flex items-center gap-2 px-3 py-1.5 rounded-md hover:bg-surface-white/60 text-text-muted hover:text-on-surface font-label-md text-label-md transition-all">
+<span class="w-2 h-2 rounded-full bg-status-completed"></span>
+<span>Completed Today</span>
+<span class="bg-surface-container-low text-text-muted font-label-sm text-label-sm px-1.5 py-0.2 rounded-full">28</span>
+</button>
+</div>
+<!-- Segment Selectors & Search -->
+<div class="flex flex-wrap sm:flex-nowrap items-center gap-space-sm">
+<!-- Search Input -->
+<div class="relative w-full sm:w-72">
+<span class="material-symbols-outlined absolute left-3 top-2.5 text-text-muted text-[18px]">search</span>
+<input class="w-full pl-9 pr-3 py-2 bg-bg-mist text-on-surface font-body-md text-body-md rounded-lg focus:bg-surface-white focus:outline-none focus:ring-2 focus:ring-primary-container/20 transition-all placeholder:text-text-muted" placeholder="Search room #, guest, keyword..." type="text"/>
+</div>
+<!-- Department Dropdown -->
+<div class="relative min-w-[150px]">
+<select class="w-full appearance-none bg-bg-mist text-on-surface font-label-md text-label-md py-2.5 pl-3 pr-8 rounded-lg focus:outline-none focus:bg-surface-white cursor-pointer transition-all">
+<option>All Departments</option>
+<option>Housekeeping</option>
+<option>Front Desk</option>
+<option>Maintenance</option>
+<option>In-Room Dining</option>
+</select>
+<span class="material-symbols-outlined absolute right-2.5 top-2.5 pointer-events-none text-text-muted text-[18px]">expand_more</span>
+</div>
+<!-- Floor Dropdown -->
+<div class="relative min-w-[120px]">
+<select class="w-full appearance-none bg-bg-mist text-on-surface font-label-md text-label-md py-2.5 pl-3 pr-8 rounded-lg focus:outline-none focus:bg-surface-white cursor-pointer transition-all">
+<option>All Floors</option>
+<option>Floor 2</option>
+<option>Floor 3</option>
+<option>Floor 4</option>
+<option>Floor 5</option>
+</select>
+<span class="material-symbols-outlined absolute right-2.5 top-2.5 pointer-events-none text-text-muted text-[18px]">tune</span>
+</div>
+</div>
+</div>
+<!-- Main Workspace: Data Table with Integrated Interactive Slide Drawer -->
+<div class="relative grid grid-cols-12 gap-space-lg items-start">
+<!-- Primary Data Table (Occupies 8 cols when row is open, full width if closed) -->
+<div class="col-span-12 xl:col-span-8 flex flex-col bg-surface-white rounded-xl shadow-sm overflow-hidden transition-all duration-300" id="tableContainer">
+<!-- Table Column Header -->
+<div class="grid grid-cols-12 gap-2 px-space-md py-3 bg-bg-mist text-text-muted font-label-sm text-label-sm uppercase tracking-wider items-center">
+<div class="col-span-2">Time / Received</div>
+<div class="col-span-2">Room / Guest</div>
+<div class="col-span-3">Service &amp; Qty</div>
+<div class="col-span-2">Status</div>
+<div class="col-span-2">Assignee</div>
+<div class="col-span-1 text-right">Actions</div>
+</div>
+<!-- Request Queue (Strictly Newest First) -->
+<div class="divide-y divide-surface-container-low flex flex-col">
+<!-- ROW 1: Room 408 (Selected / Active State) -->
+<div class="grid grid-cols-12 gap-2 px-space-md py-3.5 items-center bg-surface-container-high/40 hover:bg-surface-container-high/60 transition-colors cursor-pointer group" onclick="toggleDetailDrawer(true)">
+<div class="col-span-2 flex flex-col min-w-0">
+<span class="font-label-lg text-label-lg text-on-surface font-semibold">2:15 PM</span>
+<span class="font-label-sm text-label-sm text-primary font-medium flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-primary inline-block"></span> 2m ago
+              </span>
+</div>
+<div class="col-span-2 flex flex-col min-w-0">
+<div class="flex items-center gap-1.5">
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold tracking-tight">408</span>
+<span class="font-label-sm text-label-sm text-text-muted bg-surface-container px-1.5 py-0.5 rounded">Fl 4</span>
+</div>
+<span class="font-body-sm text-body-sm text-text-muted truncate">Jonathan Vance</span>
+</div>
+<div class="col-span-3 flex flex-col min-w-0 pr-2">
+<div class="flex items-center gap-1.5">
+<span class="font-label-lg text-label-lg text-on-surface font-medium truncate">Extra Towels</span>
+<span class="font-label-sm text-label-sm bg-surface-container-low text-on-surface px-1.5 py-0.2 rounded font-semibold">3 sets</span>
+</div>
+<span class="font-body-sm text-body-sm text-text-muted italic truncate">"Please leave 2 extra bath sheets..."</span>
+</div>
+<div class="col-span-2">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full font-label-sm text-label-sm font-semibold uppercase tracking-wider text-status-progress bg-status-progress/10">
+<span class="w-1.5 h-1.5 rounded-full bg-status-progress"></span>
+                In Progress
+              </span>
+</div>
+<div class="col-span-2 flex items-center gap-2 min-w-0">
+<div class="w-6 h-6 rounded-full bg-primary-container text-on-primary flex items-center justify-center font-label-sm text-label-sm shrink-0">ER</div>
+<div class="flex flex-col min-w-0">
+<span class="font-body-sm text-body-sm text-on-surface truncate font-medium">Elena Ramos</span>
+<span class="font-label-sm text-label-sm text-text-muted truncate">Housekeeping</span>
+</div>
+</div>
+<div class="col-span-1 flex justify-end">
+<button class="w-8 h-8 rounded-lg bg-surface-white shadow-sm flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-all">
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- ROW 2: Room 312 Pending -->
+<div class="grid grid-cols-12 gap-2 px-space-md py-3.5 items-center hover:bg-bg-mist transition-colors cursor-pointer group" onclick="toggleDetailDrawer(true)">
+<div class="col-span-2 flex flex-col min-w-0">
+<span class="font-label-lg text-label-lg text-on-surface font-semibold">2:11 PM</span>
+<span class="font-label-sm text-label-sm text-text-muted">6m ago</span>
+</div>
+<div class="col-span-2 flex flex-col min-w-0">
+<div class="flex items-center gap-1.5">
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold tracking-tight">312</span>
+<span class="font-label-sm text-label-sm text-text-muted bg-surface-container px-1.5 py-0.5 rounded">Fl 3</span>
+</div>
+<span class="font-body-sm text-body-sm text-text-muted truncate">Claire DuPont</span>
+</div>
+<div class="col-span-3 flex flex-col min-w-0 pr-2">
+<div class="flex items-center gap-1.5">
+<span class="font-label-lg text-label-lg text-on-surface font-medium truncate">Luggage Assistance</span>
+<span class="font-label-sm text-label-sm bg-surface-container-low text-on-surface px-1.5 py-0.2 rounded font-semibold">2 bags</span>
+</div>
+<span class="font-body-sm text-body-sm text-text-muted italic truncate">"Departure pickup to lobby valet..."</span>
+</div>
+<div class="col-span-2">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full font-label-sm text-label-sm font-semibold uppercase tracking-wider text-status-pending bg-status-pending/15">
+<span class="w-1.5 h-1.5 rounded-full bg-status-pending animate-pulse"></span>
+                Pending
+              </span>
+</div>
+<div class="col-span-2 flex items-center gap-2 min-w-0">
+<div class="w-6 h-6 rounded-full bg-bg-mist text-text-muted flex items-center justify-center font-label-sm text-label-sm shrink-0">
+<span class="material-symbols-outlined text-[14px]">person_off</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-body-sm text-body-sm text-status-pending font-medium">Unassigned</span>
+<span class="font-label-sm text-label-sm text-text-muted truncate">Bell Desk</span>
+</div>
+</div>
+<div class="col-span-1 flex justify-end">
+<button class="w-8 h-8 rounded-lg bg-bg-mist flex items-center justify-center text-text-muted group-hover:bg-primary-container group-hover:text-on-primary transition-all">
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- ROW 3: Room 504 AC In Progress -->
+<div class="grid grid-cols-12 gap-2 px-space-md py-3.5 items-center hover:bg-bg-mist transition-colors cursor-pointer group" onclick="toggleDetailDrawer(true)">
+<div class="col-span-2 flex flex-col min-w-0">
+<span class="font-label-lg text-label-lg text-on-surface font-semibold">2:02 PM</span>
+<span class="font-label-sm text-label-sm text-text-muted">15m ago</span>
+</div>
+<div class="col-span-2 flex flex-col min-w-0">
+<div class="flex items-center gap-1.5">
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold tracking-tight">504</span>
+<span class="font-label-sm text-label-sm text-text-muted bg-surface-container px-1.5 py-0.5 rounded">Fl 5</span>
+</div>
+<span class="font-body-sm text-body-sm text-text-muted truncate">Marcus Sterling</span>
+</div>
+<div class="col-span-3 flex flex-col min-w-0 pr-2">
+<div class="flex items-center gap-1.5">
+<span class="font-label-lg text-label-lg text-on-surface font-medium truncate">AC Calibration</span>
+<span class="font-label-sm text-label-sm bg-surface-container-low text-text-muted px-1.5 py-0.2 rounded font-semibold">—</span>
+</div>
+<span class="font-body-sm text-body-sm text-text-muted italic truncate">"Thermostat stuck at 74F, feels warm..."</span>
+</div>
+<div class="col-span-2">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full font-label-sm text-label-sm font-semibold uppercase tracking-wider text-status-progress bg-status-progress/10">
+<span class="w-1.5 h-1.5 rounded-full bg-status-progress"></span>
+                In Progress
+              </span>
+</div>
+<div class="col-span-2 flex items-center gap-2 min-w-0">
+<div class="w-6 h-6 rounded-full bg-secondary text-on-secondary flex items-center justify-center font-label-sm text-label-sm shrink-0">DK</div>
+<div class="flex flex-col min-w-0">
+<span class="font-body-sm text-body-sm text-on-surface truncate font-medium">Dave Kowalski</span>
+<span class="font-label-sm text-label-sm text-text-muted truncate">Maintenance</span>
+</div>
+</div>
+<div class="col-span-1 flex justify-end">
+<button class="w-8 h-8 rounded-lg bg-bg-mist flex items-center justify-center text-text-muted group-hover:bg-primary-container group-hover:text-on-primary transition-all">
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- ROW 4: Room 418 Room Cleaning Pending -->
+<div class="grid grid-cols-12 gap-2 px-space-md py-3.5 items-center hover:bg-bg-mist transition-colors cursor-pointer group" onclick="toggleDetailDrawer(true)">
+<div class="col-span-2 flex flex-col min-w-0">
+<span class="font-label-lg text-label-lg text-on-surface font-semibold">1:54 PM</span>
+<span class="font-label-sm text-label-sm text-text-muted">23m ago</span>
+</div>
+<div class="col-span-2 flex flex-col min-w-0">
+<div class="flex items-center gap-1.5">
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold tracking-tight">418</span>
+<span class="font-label-sm text-label-sm text-text-muted bg-surface-container px-1.5 py-0.5 rounded">Fl 4</span>
+</div>
+<span class="font-body-sm text-body-sm text-text-muted truncate">Hannah Abbott</span>
+</div>
+<div class="col-span-3 flex flex-col min-w-0 pr-2">
+<div class="flex items-center gap-1.5">
+<span class="font-label-lg text-label-lg text-on-surface font-medium truncate">Full Room Refresh</span>
+<span class="font-label-sm text-label-sm bg-surface-container-low text-on-surface px-1.5 py-0.2 rounded font-semibold">1 visit</span>
+</div>
+<span class="font-body-sm text-body-sm text-text-muted italic truncate">"After 3:00 PM please, fresh bedding..."</span>
+</div>
+<div class="col-span-2">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full font-label-sm text-label-sm font-semibold uppercase tracking-wider text-status-pending bg-status-pending/15">
+<span class="w-1.5 h-1.5 rounded-full bg-status-pending animate-pulse"></span>
+                Pending
+              </span>
+</div>
+<div class="col-span-2 flex items-center gap-2 min-w-0">
+<div class="w-6 h-6 rounded-full bg-bg-mist text-text-muted flex items-center justify-center font-label-sm text-label-sm shrink-0">
+<span class="material-symbols-outlined text-[14px]">person_off</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-body-sm text-body-sm text-status-pending font-medium">Unassigned</span>
+<span class="font-label-sm text-label-sm text-text-muted truncate">Housekeeping</span>
+</div>
+</div>
+<div class="col-span-1 flex justify-end">
+<button class="w-8 h-8 rounded-lg bg-bg-mist flex items-center justify-center text-text-muted group-hover:bg-primary-container group-hover:text-on-primary transition-all">
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- ROW 5: Room 102 Ice Bucket In Progress -->
+<div class="grid grid-cols-12 gap-2 px-space-md py-3.5 items-center hover:bg-bg-mist transition-colors cursor-pointer group" onclick="toggleDetailDrawer(true)">
+<div class="col-span-2 flex flex-col min-w-0">
+<span class="font-label-lg text-label-lg text-on-surface font-semibold">1:45 PM</span>
+<span class="font-label-sm text-label-sm text-text-muted">32m ago</span>
+</div>
+<div class="col-span-2 flex flex-col min-w-0">
+<div class="flex items-center gap-1.5">
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold tracking-tight">102</span>
+<span class="font-label-sm text-label-sm text-text-muted bg-surface-container px-1.5 py-0.5 rounded">Fl 1</span>
+</div>
+<span class="font-body-sm text-body-sm text-text-muted truncate">David O'Connor</span>
+</div>
+<div class="col-span-3 flex flex-col min-w-0 pr-2">
+<div class="flex items-center gap-1.5">
+<span class="font-label-lg text-label-lg text-on-surface font-medium truncate">Ice &amp; Sparkling Water</span>
+<span class="font-label-sm text-label-sm bg-surface-container-low text-on-surface px-1.5 py-0.2 rounded font-semibold">1 set</span>
+</div>
+<span class="font-body-sm text-body-sm text-text-muted italic truncate">"San Pellegrino if available please..."</span>
+</div>
+<div class="col-span-2">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full font-label-sm text-label-sm font-semibold uppercase tracking-wider text-status-progress bg-status-progress/10">
+<span class="w-1.5 h-1.5 rounded-full bg-status-progress"></span>
+                In Progress
+              </span>
+</div>
+<div class="col-span-2 flex items-center gap-2 min-w-0">
+<div class="w-6 h-6 rounded-full bg-tertiary-container text-on-tertiary flex items-center justify-center font-label-sm text-label-sm shrink-0">MT</div>
+<div class="flex flex-col min-w-0">
+<span class="font-body-sm text-body-sm text-on-surface truncate font-medium">Marcus Tan</span>
+<span class="font-label-sm text-label-sm text-text-muted truncate">In-Room Dining</span>
+</div>
+</div>
+<div class="col-span-1 flex justify-end">
+<button class="w-8 h-8 rounded-lg bg-bg-mist flex items-center justify-center text-text-muted group-hover:bg-primary-container group-hover:text-on-primary transition-all">
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- ROW 6: Room 205 Feather Pillows Completed -->
+<div class="grid grid-cols-12 gap-2 px-space-md py-3.5 items-center hover:bg-bg-mist transition-colors cursor-pointer group opacity-80" onclick="toggleDetailDrawer(true)">
+<div class="col-span-2 flex flex-col min-w-0">
+<span class="font-label-lg text-label-lg text-on-surface font-semibold">1:30 PM</span>
+<span class="font-label-sm text-label-sm text-text-muted">47m ago</span>
+</div>
+<div class="col-span-2 flex flex-col min-w-0">
+<div class="flex items-center gap-1.5">
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold tracking-tight">205</span>
+<span class="font-label-sm text-label-sm text-text-muted bg-surface-container px-1.5 py-0.5 rounded">Fl 2</span>
+</div>
+<span class="font-body-sm text-body-sm text-text-muted truncate">Sara Lindqvist</span>
+</div>
+<div class="col-span-3 flex flex-col min-w-0 pr-2">
+<div class="flex items-center gap-1.5">
+<span class="font-label-lg text-label-lg text-on-surface font-medium truncate">Feather Pillows</span>
+<span class="font-label-sm text-label-sm bg-surface-container-low text-on-surface px-1.5 py-0.2 rounded font-semibold">2 units</span>
+</div>
+<span class="font-body-sm text-body-sm text-text-muted italic truncate">"Hypoallergenic pillow swap completed..."</span>
+</div>
+<div class="col-span-2">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full font-label-sm text-label-sm font-semibold uppercase tracking-wider text-status-completed bg-status-completed/10">
+<span class="w-1.5 h-1.5 rounded-full bg-status-completed"></span>
+                Completed
+              </span>
+</div>
+<div class="col-span-2 flex items-center gap-2 min-w-0">
+<div class="w-6 h-6 rounded-full bg-primary-container text-on-primary flex items-center justify-center font-label-sm text-label-sm shrink-0">ER</div>
+<div class="flex flex-col min-w-0">
+<span class="font-body-sm text-body-sm text-on-surface truncate font-medium">Elena Ramos</span>
+<span class="font-label-sm text-label-sm text-text-muted truncate">Housekeeping</span>
+</div>
+</div>
+<div class="col-span-1 flex justify-end">
+<span class="material-symbols-outlined text-status-completed text-[20px]">check_circle</span>
+</div>
+</div>
+</div>
+<!-- Table Pagination Footer -->
+<div class="px-space-md py-3 bg-bg-mist flex items-center justify-between mt-auto">
+<span class="font-label-sm text-label-sm text-text-muted">Showing 6 of 12 live active requests · Sorted newest first</span>
+<div class="flex items-center gap-2">
+<button class="px-2.5 py-1 rounded bg-surface-white font-label-sm text-label-sm text-text-muted hover:text-on-surface transition-colors">Previous</button>
+<span class="font-label-sm text-label-sm font-semibold px-2 py-0.5 rounded bg-primary-container text-on-primary">1</span>
+<button class="px-2 py-0.5 rounded text-text-muted font-label-sm text-label-sm hover:text-on-surface">2</button>
+<button class="px-2.5 py-1 rounded bg-surface-white font-label-sm text-label-sm text-text-muted hover:text-on-surface transition-colors">Next</button>
+</div>
+</div>
+</div>
+<!-- Slide-over / Pinned Detail Inspector (Room 408 Active) -->
+<div class="col-span-12 xl:col-span-4 bg-surface-white rounded-xl shadow-md p-space-lg flex flex-col gap-space-lg" id="detailPanel">
+<!-- Inspector Header -->
+<div class="flex items-start justify-between">
+<div class="flex flex-col">
+<div class="flex items-center gap-2">
+<span class="font-display-hero-mobile text-display-hero-mobile font-bold text-on-surface tracking-tight">Room 408</span>
+<span class="bg-surface-container px-2 py-0.5 rounded text-primary font-label-sm text-label-sm uppercase font-semibold">Deluxe King</span>
+</div>
+<span class="font-body-md text-body-md text-text-muted">Guest: Jonathan Vance · Checked in Oct 18</span>
+</div>
+<button class="text-text-muted hover:text-on-surface p-1 rounded-lg hover:bg-bg-mist transition-colors" onclick="toggleDetailDrawer(false)">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<!-- Room Image / Visual Anchor -->
+<div class="relative w-full h-36 rounded-lg overflow-hidden shadow-sm">
+<img class="w-full h-full object-cover" data-alt="Warm and minimal interior of a luxury modern hotel bedroom with clean Scandinavian architectural design, natural light entering from window, pristine white linen bedding, muted teak wood side table and deep teal Haven Service accents." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBlMi0JFS520rSuZebYNIeXzwMSG3GmMTLhBWsKplCNbWM8o5m4taGDsmOgzEhRuQlQMpa-duARik9VndzaoHdhk99aNqFGyi_NMJFNSTolYGinSh-rXCcNjnCMwX54BUEDrWRKCNI80tbS60anKdxF-E5Hn5Qh8K0R0-SfUkvgBnEUNtkP7TrY_P28HrTXPgbeP2IvWIhSk6BqDlrdCkYNGY6BeNKx0J6mLgBging"/>
+<div class="absolute bottom-2 left-2 bg-on-surface/75 text-surface-white px-2 py-1 rounded font-label-sm text-label-sm backdrop-blur-sm">
+            Floor 4 · East Wing
+          </div>
+</div>
+<!-- Request Summary Card -->
+<div class="bg-surface-container-low p-space-md rounded-lg flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-text-muted">Service Ticket #9482</span>
+<span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full font-label-sm text-label-sm font-semibold uppercase tracking-wider text-status-progress bg-status-progress/10">
+<span class="w-1.5 h-1.5 rounded-full bg-status-progress"></span>
+              In Progress
+            </span>
+</div>
+<div class="font-headline-sm text-headline-sm text-on-surface font-semibold mt-1">Extra Bath Towels</div>
+<div class="flex items-center gap-2">
+<span class="font-label-md text-label-md font-semibold text-primary">Quantity: 3 sets</span>
+<span class="text-text-muted text-[12px]">•</span>
+<span class="font-label-md text-label-md text-text-muted">Housekeeping Dept</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant bg-surface-white p-space-sm rounded border-l-2 border-primary-container mt-1">
+            "Please leave 2 extra bath sheets if available. We also need one extra bath mat. Thank you kindly!"
+          </p>
+</div>
+<!-- Interactive Dispatch & Triage Controls -->
+<div class="flex flex-col gap-space-sm">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-text-muted">Assigned Team Member</label>
+<div class="flex items-center gap-3 p-space-sm bg-bg-mist rounded-lg">
+<div class="w-9 h-9 rounded-full bg-primary text-on-primary flex items-center justify-center font-label-md text-label-md font-bold">ER</div>
+<div class="flex flex-col flex-1 min-w-0">
+<span class="font-label-lg text-label-lg font-semibold text-on-surface truncate">Elena Ramos</span>
+<span class="font-label-sm text-label-sm text-text-muted truncate">Housekeeping Lead · Shift A</span>
+</div>
+<button class="font-label-sm text-label-sm text-primary hover:underline px-2 py-1">Reassign</button>
+</div>
+</div>
+<!-- Timeline Log -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-text-muted">Audit Log &amp; Timeline</label>
+<div class="space-y-2 border-l border-surface-container pl-3 py-1 font-body-sm text-body-sm text-text-muted">
+<div class="flex items-baseline justify-between">
+<span class="text-on-surface font-medium">Guest placed order via QR App</span>
+<span class="font-label-sm text-label-sm">2:15 PM</span>
+</div>
+<div class="flex items-baseline justify-between">
+<span class="text-on-surface font-medium">Auto-triaged to Housekeeping</span>
+<span class="font-label-sm text-label-sm">2:15 PM</span>
+</div>
+<div class="flex items-baseline justify-between">
+<span class="text-status-progress font-medium">Elena Ramos accepted task</span>
+<span class="font-label-sm text-label-sm">2:16 PM</span>
+</div>
+</div>
+</div>
+<!-- Action Shift Buttons -->
+<div class="mt-auto flex flex-col gap-space-xs pt-space-sm">
+<div class="grid grid-cols-2 gap-space-xs">
+<button class="h-10 rounded-lg bg-surface-white border border-border-subtle hover:bg-bg-mist text-on-surface font-label-md text-label-md transition-colors flex items-center justify-center gap-1.5 shadow-sm">
+<span class="material-symbols-outlined text-[18px]">chat_bubble_outline</span>
+<span>Message Room</span>
+</button>
+<button class="h-10 rounded-lg bg-status-completed hover:opacity-95 text-on-primary font-label-md text-label-md transition-opacity flex items-center justify-center gap-1.5 shadow-sm">
+<span class="material-symbols-outlined text-[18px]">check</span>
+<span>Mark Complete</span>
+</button>
+</div>
+<button class="h-10 rounded-lg bg-primary-container text-on-primary hover:bg-primary font-label-lg text-label-lg transition-colors flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px]">sync_alt</span>
+<span>Update Ticket &amp; Notify Guest</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<script>
+    function toggleDetailDrawer(open) {
+      const panel = document.getElementById('detailPanel');
+      const table = document.getElementById('tableContainer');
+      if (!panel || !table) return;
+      
+      if (open) {
+        panel.classList.remove('hidden');
+        table.classList.remove('xl:col-span-12');
+        table.classList.add('xl:col-span-8');
+      } else {
+        panel.classList.add('hidden');
+        table.classList.remove('xl:col-span-8');
+        table.classList.add('xl:col-span-12');
+      }
+    }
+  </script>
+</div></main></div></body></html>
